@@ -53,7 +53,8 @@ public class ArrayListBasic {
 		
 		arrayList.add(person1);
 		arrayList.add(person2);
-		
+		System.out.println("Array size: " + arrayList.size());
+	
 		for(Object element: arrayList) {
 			System.out.println(element);
 		}
